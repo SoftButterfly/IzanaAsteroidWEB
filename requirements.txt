@@ -1,0 +1,13 @@
+dj-database-url==0.3.0
+dj-static==0.0.6
+Django==1.8
+django-ckeditor==4.4.7
+django-recaptcha==1.0.3
+django-suit==0.2.12
+django-toolbelt==0.0.1
+docutils==0.12
+ephem==3.7.5.3
+gunicorn==19.3.0
+Pillow==2.8.1
+psycopg2==2.6
+static3==0.5.1
