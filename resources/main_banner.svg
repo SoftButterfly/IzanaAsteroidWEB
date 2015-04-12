@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="New document 1">
+   sodipodi:docname="main_banner.svg">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -51,5 +51,24 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-308.2677)" />
+     transform="translate(0,-308.2677)">
+    <path
+       sodipodi:type="star"
+       style="fill:#0000ff"
+       id="path3004"
+       sodipodi:sides="5"
+       sodipodi:cx="231.42857"
+       sodipodi:cy="144.09448"
+       sodipodi:r1="85.236771"
+       sodipodi:r2="106.30146"
+       sodipodi:arg1="0.88034988"
+       sodipodi:arg2="1.5086684"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 285.71429,209.80877 -47.68567,40.38208 -52.32284,-34.16075 -53.14133,-32.87302 16.32017,-60.31823 14.84253,-60.698728 62.40925,-3.117961 62.31451,-4.640853 22.25088,58.391222 23.66995,57.83052 z"
+       transform="translate(245.71429,491.12484)"
+       inkscape:transform-center-x="5.9382989"
+       inkscape:transform-center-y="-14.571012" />
+  </g>
 </svg>
