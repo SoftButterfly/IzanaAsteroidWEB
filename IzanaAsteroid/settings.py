@@ -113,7 +113,14 @@ if os.environ['I_AM_ON_HEROKU'] == 'True':
     }
 else:
     DATABASES = {
-        'default': dj_database_url.config(),
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql_psycopg2',
+            'NAME': 'izanaasteroiddb',
+            'USER': 'izana',
+            'PASSWORD': os.environ['IZANAASTEROID_DB_KEY'],
+            'HOST': '127.0.0.1',
+            'PORT': '',
+        }
     }
 
 
