@@ -141,7 +141,7 @@ SUIT_CONFIG = {
 # ckeditor
 CKEDITOR_UPLOAD_PATH = "ckeditor/"
 CKEDITOR_IMAGE_BACKEND = 'pillow'
-CKEDITOR_JQUERY_URL = '/static/jquery/jquery-1.11.2.min.js'
+CKEDITOR_JQUERY_URL = '/static/js/jquery-1.11.2.min.js'
 CKEDITOR_CONFIGS = {
     'default': {
         'height': 300,
