@@ -1,4 +1,4 @@
-./IzanaAsteroidEnv/*
+IzanaAsteroidEnv/*
 */__pycache__/*
 */migrations/
 *.pyc
