@@ -1,5 +1,6 @@
-IzanaAsteroidEnv/*
-*/__pycache__/*
-*/migrations/
+IzanaAsteroidEnv
+__pycache__
+migrations
 *.pyc
 *.sublime*
+staticfiles
