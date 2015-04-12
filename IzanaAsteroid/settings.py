@@ -107,9 +107,14 @@ WSGI_APPLICATION = 'IzanaAsteroid.wsgi.application'
 """ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 Bases de datos
 """
-DATABASES = {
-    'default': dj_database_url.config(),
-}
+if os.environ['I_AM_ON_HEROKU'] == 'True':
+    DATABASES = {
+        'default': dj_database_url.config(),
+    }
+else:
+    DATABASES = {
+        'default': dj_database_url.config(),
+    }
 
 
 """ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *

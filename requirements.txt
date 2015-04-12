@@ -8,6 +8,7 @@ django-toolbelt==0.0.1
 docutils==0.12
 ephem==3.7.5.3
 gunicorn==19.3.0
+numpy==1.9.2
 Pillow==2.8.1
 psycopg2==2.6
 static3==0.5.1
